@@ -1,0 +1,36 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: "Notes",
+      repo: "https://github.com/jpxthu/notes.git",
+
+      homepage: "home.md",
+
+      loadSidebar: true,
+      autoHeader: true,
+      loadNavbar: true,
+
+      search: 'auto',
+
+      subMaxLevel: 3,
+      auto2top: true
+    }
+  </script>
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-batch.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-c.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-cpp.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-json.js"></script>
+</body>
+</html>
