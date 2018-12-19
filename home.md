@@ -18,3 +18,7 @@
 
 可以提交 issue：[https://github.com/jpxthu/notes/issues](https://github.com/jpxthu/notes/issues)
 
+## 关于此页面
+
+- 托管在 [GitHub Pages](https://pages.github.com/) 上。
+- 由 Markdown 写成，由 [docsify](https://docsify.js.org/) 生成网站。
